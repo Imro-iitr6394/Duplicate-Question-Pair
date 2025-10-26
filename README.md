@@ -47,19 +47,16 @@ This project uses:
 
 ## 📂 Project Structure
 
-video-recommendation-engine/
+  Duplicate-Question-Pair-Detection/   # Root project folder
 │
-├── app/
-│   ├── __init__.py
-│   ├── db.py
-│   ├── main.py
-│   ├── recommender.py
+├── README.md                       # Project description, instructions, etc.
+├── requirements.txt                # All Python dependencies
+├── app.py                           # Main application / entry point
+├── helper.py                        # Helper functions / utilities
+├── model.pkl                         # Trained ML model
+├── cv.pkl                            # Saved CountVectorizer/TfidfVectorizer
 │
-├── requirements.txt
-├── README.md
-├── docs/
-│   └── system_overview.md
-└── Video-Recommendation.postman_collection.json                                         # Files and folders to ignore in Git
+└── __pycache__/                                       # Files and folders to ignore in Git
 
 
 
