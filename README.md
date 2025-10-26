@@ -47,20 +47,19 @@ This project uses:
 
 ### 📂 Project Structure
 
-Duplicate-Question-Pair-Detection/
+video-recommendation-engine/
 │
-├── bow-with-preprocessing-and-advanced-features.ipynb   # Main Google Colab notebook
-├── model.pkl                                            # Trained ML model (too large for GitHub)
-├── cv.pkl                                               # Saved CountVectorizer/TfidfVectorizer used for feature extraction
-├── data/                                                # Folder containing dataset files
-│   ├── train.csv                                        # Training data (questions and labels)
-│   └── test.csv                                         # Test or validation data
-├── utils/                                               # Helper scripts for text cleaning & feature extraction
-│   ├── text_cleaning.py
-│   └── feature_engineering.py
-├── requirements.txt                                     # Python dependencies
-├── README.md                                            # Project documentation
-└── .gitignore                                           # Files and folders to ignore in Git
+├── app/
+│   ├── __init__.py
+│   ├── db.py
+│   ├── main.py
+│   ├── recommender.py
+│
+├── requirements.txt
+├── README.md
+├── docs/
+│   └── system_overview.md
+└── Video-Recommendation.postman_collection.json                                         # Files and folders to ignore in Git
 
 
 
