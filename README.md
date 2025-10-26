@@ -46,7 +46,15 @@ This project uses:
 ---
 
 ## 📂 Project Structure
-'''
+# Duplicate Question Pair Detection
+
+A project to detect duplicate questions using NLP techniques.  
+
+---
+
+## 📂 Project Structure
+
+```text
 Duplicate-Question-Pair-Detection/
 ├── README.md
 ├── requirements.txt
@@ -54,8 +62,7 @@ Duplicate-Question-Pair-Detection/
 ├── helper.py
 ├── model.pkl
 ├── cv.pkl
-└── __pycache__/ '''
-
+└── __pycache__/
 
 
 
