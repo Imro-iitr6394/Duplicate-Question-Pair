@@ -46,7 +46,7 @@ This project uses:
 ---
 
 ## 📂 Project Structure
-
+'''
 Duplicate-Question-Pair-Detection/
 ├── README.md
 ├── requirements.txt
@@ -54,7 +54,8 @@ Duplicate-Question-Pair-Detection/
 ├── helper.py
 ├── model.pkl
 ├── cv.pkl
-└── __pycache__/
+└── __pycache__/ '''
+
 
 
 
