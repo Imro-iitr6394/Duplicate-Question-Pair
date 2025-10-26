@@ -47,13 +47,11 @@ This project uses:
 
 ## 📂 Project Structure  
 
-📁 Duplicate-Question-Pair-Detection/
-│
-├── 📘 bow-with-preprocessing-and-advanced-features.ipynb # Colab notebook
-├── 📦 model.pkl # Trained model (too large for GitHub)
-├── 📊 data/ # Dataset files (if applicable)
-├── 📄 README.md # Project documentation
-└── 📜 requirements.txt # Python dependencies
+  
+ 
+
+
+
 
 
 ---
