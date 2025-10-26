@@ -45,7 +45,7 @@ This project uses:
 
 ---
 
-### 📂 Project Structure
+## 📂 Project Structure
 
 video-recommendation-engine/
 │
