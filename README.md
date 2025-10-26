@@ -47,16 +47,14 @@ This project uses:
 
 ## 📂 Project Structure
 
-  Duplicate-Question-Pair-Detection/   # Root project folder
-│
-├── README.md                       # Project description, instructions, etc.
-├── requirements.txt                # All Python dependencies
-├── app.py                           # Main application / entry point
-├── helper.py                        # Helper functions / utilities
-├── model.pkl                         # Trained ML model
-├── cv.pkl                            # Saved CountVectorizer/TfidfVectorizer
-│
-└── __pycache__/                                       # Files and folders to ignore in Git
+ Duplicate-Question-Pair-Detection/
+├── README.md
+├── requirements.txt
+├── app.py
+├── helper.py
+├── model.pkl
+├── cv.pkl
+└── __pycache__/
 
 
 
