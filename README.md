@@ -45,10 +45,7 @@ This project uses:
 
 ---
 
-## 📂 Project Structure
-# Duplicate Question Pair Detection
 
-A project to detect duplicate questions using NLP techniques.  
 
 ---
 
