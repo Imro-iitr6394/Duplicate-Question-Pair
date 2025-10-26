@@ -1,3 +1,4 @@
+
 # 🧠 Duplicate Question Pair Detection  
 *Author: Rohit Yadav*  
 
@@ -17,7 +18,7 @@ This project uses:
 - **Text preprocessing** (cleaning, stemming, stopword removal)
 - **Feature extraction** using **Bag of Words (BoW)**
 - **Advanced features** like token overlap, fuzzy matching, and word length similarity
-- A **Machine Learning model** trained on engineered features to predict whether two questions are duplicates.
+- A **Machine Learning model** trained on engineered features to predict whether two questions are duplicates
 
 ---
 
@@ -34,18 +35,14 @@ This project uses:
 
 ## 🛠️ Technologies Used  
 
-| Category | Tools & Libraries |
-|-----------|------------------|
-| Language | Python 3.x |
-| NLP | NLTK, SpaCy, FuzzyWuzzy |
-| Machine Learning | Scikit-learn |
-| Data Handling | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Others | re, string, pickle |
-
----
-
-
+| Category           | Tools & Libraries           |
+|-------------------|----------------------------|
+| Language           | Python 3.x                |
+| NLP                | NLTK, SpaCy, FuzzyWuzzy   |
+| Machine Learning   | Scikit-learn               |
+| Data Handling      | Pandas, NumPy              |
+| Visualization      | Matplotlib, Seaborn        |
+| Others             | re, string, pickle         |
 
 ---
 
@@ -62,55 +59,46 @@ Duplicate-Question-Pair-Detection/
 └── __pycache__/
 
 
-
-
-
-
-
 ---
+## 🚀 How to Run on Google Colab
 
-## 🚀 How to Run on Google Colab  
 1. **Open the Colab notebook**  
    👉 [Click here to open](https://colab.research.google.com/drive/1nYVucx_pr843eC9KNXRvO_dZ72ddMBU4?usp=sharing)
 
 2. **Upload or mount your dataset** (if not already in the notebook)
 
-3. **Run all cells** to preprocess the data, extract features, and train the model.
+3. **Run all cells** to preprocess the data, extract features, and train the model
 
 4. **Load the trained model (optional)**  
-   Download and place the model file in your Colab environment:
+   Download and place the model file (`model.pkl`) in your Colab environment if needed
 
-   
 ---
 
-## 📈 Evaluation Metrics  
+## 📈 Evaluation Metrics
 
-The model is evaluated on multiple metrics for better interpretability:
+The model is evaluated using multiple metrics for better interpretability:
 
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-Score**
+- **Accuracy**  
+- **Precision**  
+- **Recall**  
+- **F1-Score**  
 - **Confusion Matrix Visualization**
 
 ---
 
-## 💡 Future Improvements  
+## 💡 Future Improvements
 
 - Integrate **TF-IDF**, **Word2Vec**, or **Sentence Transformers** embeddings  
 - Build a **web interface** for real-time duplicate detection  
-- Use **deep learning models** like LSTM or BERT for improved semantic understanding  
+- Use **deep learning models** like LSTM or BERT for improved semantic understanding
 
 ---
 
-## 🙌 Acknowledgements  
+## 🙌 Acknowledgements
 
 - [Quora Question Pair Dataset](https://www.kaggle.com/c/quora-question-pairs)  
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/)  
-- [NLTK Documentation](https://www.nltk.org/)  
-
----
-
+- [NLTK Documentation](https://www.nltk.org/)
 
 
  
