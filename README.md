@@ -1,104 +1,107 @@
 
-# 🧠 Duplicate Question Pair Detection  
-*Author: Rohit Yadav*  
+# 🧠 duplicate question pair detection  
+*author: rohit yadav*  
 
-📓 **[Open in Google Colab](https://colab.research.google.com/drive/1nYVucx_pr843eC9KNXRvO_dZ72ddMBU4?usp=sharing)**  
+📓 **[open in google colab](https://colab.research.google.com/drive/1nYVucx_pr843eC9KNXRvO_dZ72ddMBU4?usp=sharing)**  
 
-This project focuses on detecting **duplicate question pairs**, similar to the **Quora Question Pairs** problem.  
-The goal is to identify whether two given questions have the same semantic meaning using **Bag of Words (BoW)** features combined with advanced NLP-based preprocessing and feature engineering.
+🌐 **try the live app (streamlit web demo)**  
+👉 https://duplicate-question-pair-22gpnvme7lyw9gvnfqwa3z.streamlit.app/
 
----
-
-## 📘 Project Overview  
-
-Duplicate question detection is a common task in NLP where the system determines if two questions are semantically similar.  
-This helps platforms like **Quora**, **Stack Overflow**, and **Reddit** reduce redundancy and improve user experience.
-
-This project uses:
-- **Text preprocessing** (cleaning, stemming, stopword removal)
-- **Feature extraction** using **Bag of Words (BoW)**
-- **Advanced features** like token overlap, fuzzy matching, and word length similarity
-- A **Machine Learning model** trained on engineered features to predict whether two questions are duplicates
+this project focuses on detecting **duplicate question pairs**, similar to the **quora question pairs** problem.  
+the goal is to identify whether two given questions have the same semantic meaning using **bag of words (bow)** features combined with advanced nlp-based preprocessing and feature engineering.
 
 ---
 
-## 🧩 Key Features  
+## 📘 project overview  
 
-- ✅ Cleaned and preprocessed text using **NLTK / SpaCy**
-- ✅ Feature engineering for similarity scores (cosine, fuzzy ratio, etc.)
-- ✅ Bag-of-Words representation
-- ✅ Model training and evaluation (accuracy, F1-score, precision, recall)
-- ✅ Pickled trained model for reuse (`model.pkl`)
-- ✅ Ready-to-run **Google Colab Notebook** for full reproducibility
+duplicate question detection is a common task in nlp where the system determines if two questions are semantically similar.  
+this helps platforms like **quora**, **stack overflow**, and **reddit** reduce redundancy and improve user experience.
+
+this project uses:
+- **text preprocessing** (cleaning, stemming, stopword removal)
+- **feature extraction** using **bag of words (bow)**
+- **advanced features** like token overlap, fuzzy matching, and word length similarity
+- a **machine learning model** trained on engineered features to predict whether two questions are duplicates
 
 ---
 
-## 🛠️ Technologies Used  
+## 🧩 key features  
 
-| Category           | Tools & Libraries           |
+- ✅ cleaned and preprocessed text using **nltk / spacy**
+- ✅ feature engineering for similarity scores (cosine, fuzzy ratio, etc.)
+- ✅ bag-of-words representation
+- ✅ model training and evaluation (accuracy, f1-score, precision, recall)
+- ✅ pickled trained model for reuse (`model.pkl`)
+- ✅ ready-to-run **google colab notebook** for full reproducibility
+
+---
+
+## 🛠️ technologies used  
+
+| category           | tools & libraries           |
 |-------------------|----------------------------|
-| Language           | Python 3.x                |
-| NLP                | NLTK, SpaCy, FuzzyWuzzy   |
-| Machine Learning   | Scikit-learn               |
-| Data Handling      | Pandas, NumPy              |
-| Visualization      | Matplotlib, Seaborn        |
-| Others             | re, string, pickle         |
+| language           | python 3.x                |
+| nlp                | nltk, spacy, fuzzywuzzy   |
+| machine learning   | scikit-learn               |
+| data handling      | pandas, numpy              |
+| visualization      | matplotlib, seaborn        |
+| others             | re, string, pickle         |
 
 ---
 
-## 📂 Project Structure
+## 📂 project structure
 
 ```text
-Duplicate-Question-Pair-Detection/
-├── README.md
+duplicate-question-pair-detection/
+├── readme.md
 ├── requirements.txt
 ├── app.py
 ├── helper.py
 ├── model.pkl
 ├── cv.pkl
-└── __pycache__/ '''text
-
-
----
-## 🚀 How to Run on Google Colab
-
-1. **Open the Colab notebook**  
-   👉 [Click here to open](https://colab.research.google.com/drive/1nYVucx_pr843eC9KNXRvO_dZ72ddMBU4?usp=sharing)
-
-2. **Upload or mount your dataset** (if not already in the notebook)
-
-3. **Run all cells** to preprocess the data, extract features, and train the model
-
-4. **Load the trained model (optional)**  
-   Download and place the model file (`model.pkl`) in your Colab environment if needed
+└── __pycache__/
+```
 
 ---
 
-## 📈 Evaluation Metrics
+## 🚀 how to run on google colab
 
-The model is evaluated using multiple metrics for better interpretability:
+1. **open the colab notebook**  
+   👉 [click here to open](https://colab.research.google.com/drive/1nYVucx_pr843eC9KNXRvO_dZ72ddMBU4?usp=sharing)
 
-- **Accuracy**  
-- **Precision**  
-- **Recall**  
-- **F1-Score**  
-- **Confusion Matrix Visualization**
+2. **upload or mount your dataset** (if not already in the notebook)
 
----
+3. **run all cells** to preprocess the data, extract features, and train the model
 
-## 💡 Future Improvements
-
-- Integrate **TF-IDF**, **Word2Vec**, or **Sentence Transformers** embeddings  
-- Build a **web interface** for real-time duplicate detection  
-- Use **deep learning models** like LSTM or BERT for improved semantic understanding
+4. **load the trained model (optional)**  
+   download and place the model file (`model.pkl`) in your colab environment if needed
 
 ---
 
-## 🙌 Acknowledgements
+## 📈 evaluation metrics
 
-- [Quora Question Pair Dataset](https://www.kaggle.com/c/quora-question-pairs)  
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/)  
-- [NLTK Documentation](https://www.nltk.org/)
+model performance is measured using:
+
+- **accuracy**
+- **precision**
+- **recall**
+- **f1-score**
+- **confusion matrix visualization**
+
+---
+
+## 💡 future improvements
+
+- integrate **tf-idf**, **word2vec**, or **sentence transformers** embeddings  
+- build a **web interface** for real-time duplicate detection  
+- use **deep learning models** like lstm or bert for improved semantic understanding  
+
+---
+
+## 🙌 acknowledgements
+
+- dataset: quora question pair  
+- libraries: scikit-learn, nltk  
 
 
  
